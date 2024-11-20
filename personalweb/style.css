@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #800080; /* Warna ungu */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    margin: 50px;
+  }
+
+  nav ul li a {
+    color: white;
+  }
+  
+  .container img {
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  
+  .profile-text {
+    text-align: left;
+  }
+  
+  button {
+    background-color: #774caf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
